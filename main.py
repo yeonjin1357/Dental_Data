@@ -16,5 +16,5 @@ def fetch_data(api_key):
 
 if __name__ == "__main__":
     import os
-    API_KEY = os.environ['UKoA3ATKwDj6VH8EeN%2B1%2F8PipEZvEYrRqim6XNw7Kuk0izhXAuQBdDkKdD5g8Nub6xfpwJk0v2ueY24GhqdZFA%3D%3D']
+    API_KEY = os.environ['API_KEY']
     fetch_data(API_KEY)
